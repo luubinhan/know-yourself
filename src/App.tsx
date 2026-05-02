@@ -368,7 +368,7 @@ export default function App() {
                 transition={{ delay: 0.3 }}
                 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 text-slate-950"
               >
-                Trắc Nghiệm Tính Cách <span className="text-blue-600">AI</span>
+                Trắc Nghiệm <span className="text-blue-600">Tính Cách</span>
               </motion.h1>
               <motion.p 
                 initial={{ y: 20, opacity: 0 }}
@@ -406,12 +406,6 @@ export default function App() {
                 </motion.div>
               ))}
             </div>
-
-            <footer className="mt-24 text-center border-t border-slate-200 pt-8">
-              <p className="text-xs text-slate-400 uppercase tracking-[0.2em]">
-                Cung cấp bởi AI Studio • 2026
-              </p>
-            </footer>
           </motion.div>
         )}
 
