@@ -462,7 +462,7 @@ export default function App() {
                     onClick={() => handleOptionSelect(key)}
                     whileHover={{ x: 8 }}
                     whileTap={{ scale: 0.98 }}
-                    className={`w-full text-left p-5 rounded-2xl border transition-all duration-200 flex items-start gap-4 ${
+                    className={`w-full cursor-pointer text-left p-5 rounded-2xl border transition-all duration-200 flex items-start gap-4 ${
                       selectedOption === key 
                         ? 'bg-blue-600/10 border-blue-600 text-blue-700 shadow-sm' 
                         : 'bg-white border-slate-200 text-slate-600 hover:text-slate-900 hover:border-slate-300 shadow-sm'
